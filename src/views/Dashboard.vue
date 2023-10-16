@@ -11,13 +11,13 @@
           <button
             class="bg-white dark:bg-gray-800 hover:border-gray-200 dark:hover:bg-gray-700 dark:text-white dark:border-gray-700 border rounded py-2 px-5"
           >
-            My Invoices
+            My Sales
           </button>
           <button
             class="bg-primary border flex gap-2 text-white hover:bg-primary/80 dark:border-gray-700 rounded py-3 px-5"
           >
             <span class="icon text-2xl"><Icon icon="ic:twotone-plus" /></span>
-            <span class="text"> Create New Invoice</span>
+            <span class="text"> Create a New Invoice</span>
           </button>
         </div>
       </div>

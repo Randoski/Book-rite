@@ -1,7 +1,23 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-// Default Pages
+// Main Pages
 import Dashboard from "../views/Dashboard.vue";
+import Invoices from "../views/Invoices.vue";
+import Clients from "../views/Clients.vue";
+import Profile from "../views/Profile.vue";
+import Reports from "../views/Reports.vue";
+import ProductsAndServices from "../views/ProductsAndServices.vue";
+import Login from "../views/layouts/auth/Login.vue";
+import Register from "../views/layouts/auth/Register.vue";
+import ForgotPassword from "../views/layouts/auth/forgot-password.vue";
+import Page404 from "../views/layouts/error/404.vue";
+import Page500 from "../views/layouts/error/500.vue";
+
+
+
+
+
+
 // Component Pages
 import Valert from "../views/components/alert.vue";
 import Vaccrodion from "../views/components/accordion.vue";
@@ -11,16 +27,8 @@ import Vbutton from "../views/components/button.vue";
 import Vcard from "../views/components/card.vue";
 import Vdropdown from "../views/components/dropdown.vue";
 import Vmodal from "../views/components/modal.vue";
-import Login from "../views/layouts/auth/Login.vue";
-import Register from "../views/layouts/auth/Register.vue";
-import ForgotPassword from "../views/layouts/auth/forgot-password.vue";
-
 // layouts
 import Blank from "../views/layouts/Blank.vue";
-
-// error page
-import Page404 from "../views/layouts/error/404.vue";
-import Page500 from "../views/layouts/error/500.vue";
 import PageMaintenance from "../views/layouts/error/maintenance.vue";
 import Tables from "../views/tables.vue";
 
@@ -35,6 +43,40 @@ const routes = [
     name: "Dashboard",
     component: Dashboard,
     meta: { title: "Dashboard " + appname },
+  },
+
+  {
+    path: "/invoices",
+    name: "Invoices",
+    component: Invoices,
+    meta: { title: "Invoices " + appname },
+  },
+
+  {
+    path: "/clients",
+    name: "Clients",
+    component: Clients,
+    meta: { title: "Clients " + appname },
+  },
+
+  {
+    path: "/profile",
+    name: "Profile",
+    component: Profile,
+    meta: { title: "Profile " + appname },
+  },
+
+  {
+    path: "/reports",
+    name: "Reports",
+    component: Reports,
+    meta: { title: "Reports " + appname },
+  },
+  {
+    path: "/products-and-services",
+    name: "ProductsAndServices",
+    component: ProductsAndServices,
+    meta: { title: "ProductsAndServices " + appname },
   },
 
   {
