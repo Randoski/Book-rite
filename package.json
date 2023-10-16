@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "Free Open Source Template Dashboard Admin Vue Tailwind CSS",
   "private": false,
+  "engines": {
+    "node": "14.17.6"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -42,7 +45,7 @@
     "@iconify/vue": "^3.2.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
+    "@vue/cli-service": "^5.0.8",
     "vue-cli-plugin-tailwind": "~3.0.0"
   }
 }
