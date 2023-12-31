@@ -13,12 +13,13 @@
           >
             My Sales
           </button>
-          <button
+          <router-link
+            to="/create-invoice"
             class="bg-primary border flex gap-2 text-white hover:bg-primary/80 dark:border-gray-700 rounded py-3 px-5"
           >
             <span class="icon text-2xl"><Icon icon="ic:twotone-plus" /></span>
             <span class="text"> Create a New Invoice</span>
-          </button>
+          </router-link>
         </div>
       </div>
     </div>
@@ -50,13 +51,12 @@
               </svg>
             </span>
           </div>
+          aa N
         </div>
 
         <div class="block p-2 w-full">
-          <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">
-            Rp.23.423.009
-          </p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">Total Payouts</h2>
+          <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">52,000,000</p>
+          <h2 class="font-normal text-gray-400 text-md mt-1">Turnover</h2>
         </div>
       </div>
       <!-- end card -->
@@ -88,7 +88,7 @@
 
         <div class="block p-2 w-full">
           <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">256</p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">Total Sales</h2>
+          <h2 class="font-normal text-gray-400 text-md mt-1">Sales</h2>
         </div>
       </div>
       <!-- end card -->
@@ -122,7 +122,7 @@
 
         <div class="block p-2 w-full">
           <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">3569</p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">Total Customers</h2>
+          <h2 class="font-normal text-gray-400 text-md mt-1">Clients</h2>
         </div>
       </div>
       <!-- end card -->
@@ -156,7 +156,7 @@
 
         <div class="block p-2 w-full">
           <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">7230</p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">Total Visit</h2>
+          <h2 class="font-normal text-gray-400 text-md mt-1">Discounts</h2>
         </div>
       </div>
       <!-- end card -->

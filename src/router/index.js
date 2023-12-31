@@ -7,6 +7,8 @@ import Clients from "../views/Clients.vue";
 import Profile from "../views/Profile.vue";
 import Reports from "../views/Reports.vue";
 import ProductsAndServices from "../views/ProductsAndServices.vue";
+import AddClient from "../views/AddClient.vue";
+import CreateInvoice from "../views/CreateInvoice.vue";
 import Login from "../views/layouts/auth/Login.vue";
 import Register from "../views/layouts/auth/Register.vue";
 import ForgotPassword from "../views/layouts/auth/forgot-password.vue";
@@ -72,11 +74,26 @@ const routes = [
     component: Reports,
     meta: { title: "Reports " + appname },
   },
+
   {
     path: "/products-and-services",
     name: "ProductsAndServices",
     component: ProductsAndServices,
     meta: { title: "ProductsAndServices " + appname },
+  },
+
+  {
+    path: "/add-client",
+    name: "AddClient",
+    component: AddClient,
+    meta: { title: "Add Client " + appname },
+  },
+
+  {
+    path: "/create-invoice",
+    name: "CreateInvoice",
+    component: CreateInvoice,
+    meta: { title: "Create Invoice " + appname },
   },
 
   {
